@@ -1,0 +1,140 @@
+/* button */
+.featured__button,
+.products__button,
+.info__button {
+  background: #5bacc3;
+  border: 0;
+  color: white;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+}
+.featured__button,
+.info__button {
+  margin-top: 1rem;
+}
+
+.different__background{
+  padding: 3rem 8rem;
+  background-image: url(../assets/coldbrewbackground.png);
+  background-position: center;
+  background-size:contain;
+}
+
+.featured__title {
+  margin: auto;
+}
+
+.featured__info {
+  width: 25rem;
+  align-content: center;
+}
+
+.products__title {
+  text-align: center;
+}
+
+.products__button {
+  margin: 3rem 0;
+}
+
+.button-container{
+display: flex;
+justify-content: center;
+}
+
+.card__price {
+  font-weight: bold;
+}
+.discount {
+  background: white;
+  padding-top: 7rem;
+}
+
+.different{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info{
+  width: 28rem;
+}
+
+.info__title{
+  margin-bottom: 2rem;
+}
+
+.info__imageset{
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount__banner {
+  font-size: 3rem;
+  background: #393939;
+  color: white;
+  width: 90%;
+  text-align: center;
+  padding: 3rem;
+  margin: 7rem auto;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+  width: 20.5rem;
+  overflow: hidden;
+  margin: 0%;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.card__image {
+  height: 17.5rem;
+  display: block;
+  margin: 3rem auto;
+}
+
+.card__price,
+.card__title,
+.card__size {
+  margin: 0;
+}
+
+.card__size {
+  color: #909090;
+}
+
+.card__desc {
+  display: flex;
+  padding: 3rem 1rem;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__address,
+.footer__hours,
+.footer__social,
+.card {
+  min-width: 20rem;
+}
+
+.footer__address,
+.footer__hours,
+.footer__social {
+  padding: 1rem;
+  margin: auto;
+}

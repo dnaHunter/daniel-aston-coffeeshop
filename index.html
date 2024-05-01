@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/global.css" rel="stylesheet" />
+    <link href="./css/landing.css" rel="stylesheet" />
+    <title>Coffee Shop - Home</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__left">
+        <a class="nav__img-link" href="./index.html">
+          <img
+            alt="coffe beans logo"
+            src="./assets/coffee-beans-logo-and-footer.svg"
+            class="nav__icon"
+          />
+        </a>
+        <h3 class="nav__title">nitro</h3>
+      </div>
+      <div class="nav__right">
+        <a class="nav__link" href="./index.html">ABOUT</a>
+        <a class="nav__link" href="./pages/menu.html">MENU</a>
+        <a class="nav__link nav__link--blue" href="./pages/menu.html"
+          >SHOP NOW
+        </a>
+      </div>
+    </nav>
+
+    <main class="main">
+      <section class="featured">
+        <div class="featured__info">
+          <h1 class="featured__title">Nitro Coffee</h1>
+          <p class="featured__decription">
+            Coffee is a brewed drink prepared from roasted coffee beans, the seeds
+            of berries from certain Coffea species
+          </p>
+          <a class="featured__link" href="./pages/menu.html">
+            <button class="featured__button">SHOP NOW</button></a
+          >
+        </div>
+        <img
+          class="featured__image"
+          alt="coffee bag"
+          src="./assets/coffeebeans-hero.png"
+        />
+      </section>
+
+      <section class="products">
+        <h2 class="products__title">Our Products</h2>
+        <div class="card-holder">
+          <div class="card">
+            <img
+              class="card__image"
+              alt="Coffee beans"
+              src="./assets/coffeebeans.png"
+            />
+            <div class="card__desc">
+              <div class="card__title-box">
+                <h3 class="card__title">Coffee Beans</h3>
+                <p class="card__size">Pack of 3</p>
+              </div>
+              <h3 class="card__price">£19</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              alt="Cold Brew"
+              src="./assets/coldbrew.png"
+            />
+            <div class="card__desc">
+              <div class="card__title-box">
+                <h3 class="card__title">Cold Brew</h3>
+                <p class="card__size">1 Can</p>
+              </div>
+              <h3 class="card__price">£5</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              alt="In House Brew"
+              src="./assets/inhousebrew.png"
+            />
+            <div class="card__desc">
+              <div class="card__title-box">
+                <h3 class="card__title">In House Brew</h3>
+                <p class="card__size">1 Cup</p>
+              </div>
+              <h3 class="card__price">£3</h3>
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <a class="products__link" href="./pages/menu.html">
+            <button class="products__button">VIEW ALL</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="discount">
+        <div class="different">
+          <aside class="info">
+            <h2 class="info__title">We're Different</h2>
+            <p class="info__desc">
+              We grow and roast our own beans. Every bean, every cup, every step
+              of the way, we strive for excellence.
+            </p>
+            <div class="info__imageset">
+              <img
+                src="./assets/planting.svg"
+                alt="Coffee plants"
+                class="info__image"
+              />
+              <img
+                src="./assets/coffee-beans.svg"
+                alt="Coffee beans"
+                class="info__image"
+              />
+              <img
+                src="./assets/coffee-cup.svg"
+                alt="Coffee cup"
+                class="info__image"
+              />
+            </div>
+            <a href="index.html" class="info__link"
+              ><button class="info__button">LEARN MORE</button></a
+            >
+          </aside>
+          <div class="different__background">
+            <img
+              src="./assets/tiltedcan.png"
+              alt="Tilted Can"
+              class="different__image"
+            />
+          </div>
+        </div>
+        <p class="discount__banner">
+          Get 20% off your first order with code:
+          <span style="font-weight: 900">FirstNitro</span>
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__address">
+        <h3 class="footer__title">Address</h3>
+        <p class="footer__text">503 Broadway Penthouse</p>
+        <p class="footer__text">New York</p>
+      </div>
+      <div class="footer__hours">
+        <h3 class="footer__title">Hours</h3>
+        <p class="footer__text">
+          <span style="font-weight: bold">Monday - Friday:</span> 9am - 9:30am
+        </p>
+        <p class="footer__text">
+          <span style="font-weight: bold">Saturday - Sunday:</span> Closed
+        </p>
+      </div>
+      <div class="footer__social">
+        <h3 class="footer__title">Social</h3>
+        <a href="http://facebook.com"
+          ><img
+            src="./assets/Facebook-Icon.svg"
+            alt="Facebook"
+            class="footer__icon"
+        /></a>
+        <a href="http://yelp.com"
+          ><img src="./assets/Yelp-Icon.svg" alt="Yelp" class="footer__icon"
+        /></a>
+        <a href="http://Instagram.com"
+          ><img
+            src="./assets/Instagram-Icon.svg"
+            alt="Instagram"
+            class="footer__icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

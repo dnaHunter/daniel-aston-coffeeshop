@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: #393939;
+  margin: 0;
+}
+
+h2,
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.nav {
+  font-size: 1.31rem;
+  list-style-type: none;
+}
+
+/*button */
+.products__button,
+.featured__button,
+.info__button {
+  font-size: 1.31rem;
+  padding: 1rem 2rem;
+}
+
+.cold-drinks,
+.products {
+  background: #f7f7f7;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.card__price,
+.hot-drinks__price,
+.cold-drinks__price,
+.pastries__price {
+  color: #5bacc3;
+}
+
+/* pink */
+.hot-drinks,
+.nav,
+.pastries,
+.header,
+.featured,
+.footer,
+.card__desc,
+.different__background {
+  background: #fff0ed;
+}
+
+.nav__icon,
+.header__icon,
+.footer__icon,
+.info__image {
+  width: 3rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+.nav__left,
+.nav__right {
+  display: flex;
+}
+
+.nav__icon,
+.nav__title{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #393939;
+  margin: 2rem 1rem;
+}
+
+.nav__link--blue {
+  color: #5bacc3;
+}
