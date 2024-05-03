@@ -1,0 +1,19 @@
+@use "./colors" as *;
+
+@mixin button {
+  margin-top: 2rem;
+  background: $nitro-blue;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+@mixin border {
+  width: 98%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}

@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: #393939;
+  margin: 0;
+}
+
+h2,
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.products__button,
+.featured__button,
+.info__button {
+  font-size: 1.31rem;
+  padding: 1rem 2rem;
+}
+
+.cold-drinks,
+.products {
+  background: #f7f7f7;
+}
+
+.card__price,
+.hot-drinks__price,
+.cold-drinks__price,
+.pastries__price {
+  color: #5bacc3;
+}
+
+/* pink */
+.hot-drinks,
+.nav,
+.pastries,
+.header,
+.featured,
+.footer,
+.card__desc,
+.different__background {
+  background: #fff0ed;
+}
+
+.nav__icon,
+.header__icon,
+.footer__icon,
+.info__image {
+  width: 3rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  font-size: 1.31rem;
+  list-style-type: none;
+}
+.nav__left, .nav__right {
+  display: flex;
+}
+.nav__icon, .nav__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: #393939;
+  margin: 2rem 1rem;
+}
+.nav__link--blue {
+  color: #5bacc3;
+}
+
+.circle {
+  background-image: url(../assets/coffee-circle.jpg);
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle__title {
+  color: white;
+  width: 20rem;
+  height: 15rem;
+  background: #393939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.circle__border {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #5bacc3;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.sub-nav {
+  color: white;
+  text-align: center;
+  background: #393939;
+  font-size: 1.31rem;
+  list-style-type: none;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.sub-nav__center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-nav__li {
+  margin-left: 1rem;
+}
+
+.hot-drinks,
+.pastries,
+.cold-drinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.hot-drinks__description,
+.pastries__description,
+.cold-drinks__description {
+  text-align: center;
+  font-style: italic;
+  align-self: center;
+  width: 35%;
+}
+.hot-drinks__price,
+.pastries__price,
+.cold-drinks__price {
+  margin-bottom: 0;
+}/*# sourceMappingURL=menu.css.map */

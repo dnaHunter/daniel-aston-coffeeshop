@@ -1,3 +1,5 @@
+@use "./colors" as *;
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,7 @@
 body {
   font-family: "Open Sans";
   font-weight: 500;
-  color: #393939;
+  color: $textgrey;
   margin: 0;
 }
 
@@ -23,12 +25,10 @@ h3 {
   font-weight: 300;
 }
 
-.nav {
-  font-size: 1.31rem;
-  list-style-type: none;
+p {
+  font-size: 1.1rem;
 }
 
-/*button */
 .products__button,
 .featured__button,
 .info__button {
@@ -38,18 +38,14 @@ h3 {
 
 .cold-drinks,
 .products {
-  background: #f7f7f7;
-}
-
-p {
-  font-size: 1.1rem;
+  background: $backgroundlightblue;
 }
 
 .card__price,
 .hot-drinks__price,
 .cold-drinks__price,
 .pastries__price {
-  color: #5bacc3;
+  color: $nitro-blue;
 }
 
 /* pink */
@@ -61,7 +57,7 @@ p {
 .footer,
 .card__desc,
 .different__background {
-  background: #fff0ed;
+  background: $backgroundpink;
 }
 
 .nav__icon,
@@ -76,25 +72,27 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding-left: 1rem;
-}
+  font-size: 1.31rem;
+  list-style-type: none;
 
-.nav__left,
-.nav__right {
-  display: flex;
-}
+  &__left,
+  &__right {
+    display: flex;
+  }
 
-.nav__icon,
-.nav__title{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+  &__icon,
+  &__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
-.nav__link {
-  text-decoration: none;
-  color: #393939;
-  margin: 2rem 1rem;
-}
+  &__link {
+    text-decoration: none;
+    color: $textgrey;
+    margin: 2rem 1rem;
+  }
 
-.nav__link--blue {
-  color: #5bacc3;
+  &__link--blue {
+    color: $nitro-blue;
+  }
 }

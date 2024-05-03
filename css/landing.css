@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: #393939;
+  margin: 0;
+}
+
+h2,
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.products__button,
+.featured__button,
+.info__button {
+  font-size: 1.31rem;
+  padding: 1rem 2rem;
+}
+
+.cold-drinks,
+.products {
+  background: #f7f7f7;
+}
+
+.card__price,
+.hot-drinks__price,
+.cold-drinks__price,
+.pastries__price {
+  color: #5bacc3;
+}
+
+/* pink */
+.hot-drinks,
+.nav,
+.pastries,
+.header,
+.featured,
+.footer,
+.card__desc,
+.different__background {
+  background: #fff0ed;
+}
+
+.nav__icon,
+.header__icon,
+.footer__icon,
+.info__image {
+  width: 3rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  font-size: 1.31rem;
+  list-style-type: none;
+}
+.nav__left, .nav__right {
+  display: flex;
+}
+.nav__icon, .nav__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: #393939;
+  margin: 2rem 1rem;
+}
+.nav__link--blue {
+  color: #5bacc3;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+}
+.featured__button {
+  margin-top: 2rem;
+  background: #5bacc3;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.featured__border {
+  width: 98%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.featured__title {
+  margin: auto;
+}
+.featured__info {
+  width: 25rem;
+  align-content: center;
+}
+.featured__description {
+  margin-bottom: 3rem;
+}
+
+.products__title {
+  text-align: center;
+}
+.products__button {
+  margin: 3rem 0;
+  margin-top: 2rem;
+  background: #5bacc3;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.products__border {
+  width: 98%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+  width: 20.5rem;
+  overflow: hidden;
+  margin: 0%;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+.card__image {
+  height: 17.5rem;
+  display: block;
+  margin: 3rem auto;
+}
+.card__size {
+  color: #909090;
+}
+.card__price {
+  font-weight: bold;
+}
+.card__price, .card__title, .card__size {
+  margin: 0;
+}
+.card__desc {
+  display: flex;
+  padding: 3rem 1rem;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.different {
+  display: flex;
+  justify-content: space-around;
+}
+.different__background {
+  padding: 3rem 8rem;
+  background-image: url(../assets/coldbrewbackground.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+.different__border {
+  height: 100%;
+  width: 100%;
+  border: 5px solid #5bacc3;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.info {
+  width: 28rem;
+}
+.info__title {
+  margin-bottom: 2rem;
+}
+.info__button {
+  margin-top: 2rem;
+  background: #5bacc3;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.info__border {
+  width: 98%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.info__imageset {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.discount {
+  background: white;
+  padding-top: 7rem;
+}
+.discount__banner {
+  font-size: 3rem;
+  background: #393939;
+  color: white;
+  width: 90%;
+  text-align: center;
+  padding: 3rem;
+  margin: 7rem auto;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__address,
+.footer__hours,
+.footer__social,
+.card {
+  min-width: 20rem;
+}
+
+.footer__address,
+.footer__hours,
+.footer__social {
+  padding: 1rem;
+  margin: auto;
+}/*# sourceMappingURL=landing.css.map */
