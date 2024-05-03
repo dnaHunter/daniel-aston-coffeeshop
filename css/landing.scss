@@ -2,25 +2,45 @@
 .featured__button,
 .products__button,
 .info__button {
+  margin-top: 2rem;
   background: #5bacc3;
   border: 0;
   color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.featured__border,
+.products__border,
+.info__border {
+  width: 98%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
 }
 
 .featured {
   display: flex;
   justify-content: space-around;
 }
-.featured__button,
-.info__button {
-  margin-top: 1rem;
-}
 
 .different__background{
   padding: 3rem 8rem;
   background-image: url(../assets/coldbrewbackground.png);
   background-position: center;
-  background-size:contain;
+  background-size:contain; 
+  position: relative;
+}
+
+.different__border{
+  height: calc(100%);
+  width: calc(100% );
+  border: 5px solid #5bacc3;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
 }
 
 .featured__title {
@@ -30,6 +50,11 @@
 .featured__info {
   width: 25rem;
   align-content: center;
+}
+
+.featured__description,
+.info__imageset{
+  margin-bottom: 3rem;
 }
 
 .products__title {
@@ -57,6 +82,7 @@ justify-content: center;
   display: flex;
   justify-content: space-around;
 }
+
 
 .info{
   width: 28rem;

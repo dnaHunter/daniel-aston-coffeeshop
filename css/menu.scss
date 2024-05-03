@@ -1,12 +1,23 @@
 .circle__title {
   color: white;
+  width: 20rem;
+  height: 15rem;
   background: #393939;
-  width: 30%;
-  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.circle__border{
+  width: 50%;
+  height: 50%;
+  border: 3px #5bacc3;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
 
 .circle {
   background-image: url(../assets/coffee-circle.jpg);
@@ -32,7 +43,11 @@
 
 /* pink */
 .hot-drinks,
-.pastries {
+.pastries,
+.cold-drinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
@@ -40,12 +55,9 @@
 .cold-drinks__description,
 .pastries__description {
   text-align: center;
-  width: 35%;
   font-style: italic;
-}
-
-.cold-drinks{
-  text-align: center;
+  align-self: center;
+  width: 35%;
 }
 
 
